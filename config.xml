@@ -2,11 +2,15 @@
 <widget id="org.rondinapp.sample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>RondinAPP</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Escaner QR para verificacion de rondines
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        Ing. Alfonso Medina Duran
     </author>
+    <gap:config-file platform="android" parent="/manifest" mode="add">
+        <uses-permission android:name="android.permission.CAMERA" />
+    </gap:config-file>  
+
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
