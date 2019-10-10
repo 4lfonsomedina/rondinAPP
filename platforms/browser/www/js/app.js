@@ -4,11 +4,11 @@ $(document).ready(function() {
   $('#scan').click( function(){
     permissions.hasPermission(permissions.CAMERA, function( status ){
   if ( status.hasPermission ) {
-    console.log("Yes :D ");
+    alert("Yes :D ");
   }
   
   else {
-    console.warn("No :( ");
+    alert("No :( ");
   }
 });
     /*
