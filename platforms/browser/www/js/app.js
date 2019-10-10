@@ -25,7 +25,7 @@ $(document).ready(function() {
   verificar_turno();
   function verificar_turno(){
     $.post("http://ferbis.com/demo/index.php/rondin/verificar_turno?id_guardia="+localStorage.getItem("id_guardia"), function(r) {
-     if(r=="0"){window.location.href = "inicio.html";}
+     if(r=="0"){window.location.replace("inicio.html");}
     });
   }
   /*   FINALIZAR TURNO **********************************************************/
