@@ -4,8 +4,8 @@
   "name": "RondinAPP",
   "short_name": "RondinAPP",
   "version": "org.rondinapp.sample",
-  "description": "Hello World sample application that responds to the deviceready event.",
-  "author": "PhoneGap Team",
+  "description": "Escaner QR para verificacion de rondines",
+  "author": "Ing. Alfonso Medina Duran",
   "icons": [
     {
       "src": "res/icon/android/ldpi.png",

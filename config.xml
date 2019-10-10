@@ -7,6 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         Ing. Alfonso Medina Duran
     </author>
+    
     <gap:config-file platform="android" parent="/manifest" mode="add">
         <uses-permission android:name="android.permission.CAMERA" />
     </gap:config-file>  
