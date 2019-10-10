@@ -2,6 +2,16 @@ $(document).ready(function() {
     
     /*   SCANN   *****************************************************************/
   $('#scan').click( function(){
+    permissions.hasPermission(permissions.CAMERA, function( status ){
+  if ( status.hasPermission ) {
+    console.log("Yes :D ");
+  }
+  
+  else {
+    console.warn("No :( ");
+  }
+});
+    /*
     cordova.plugins.barcodeScanner.scan(
     function (result) {
         //alert(JSON.stringify(result));
@@ -19,6 +29,7 @@ $(document).ready(function() {
     function (error) {
         alert("Scanning failed: " + error);
     });
+    */
   });
 
   /*   VERIFICAR TURNO **********************************************************/

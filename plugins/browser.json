@@ -39,6 +39,9 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "org.rondinapp.sample"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "org.rondinapp.sample"
     }
   },
   "dependent_plugins": {

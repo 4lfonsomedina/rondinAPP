@@ -8,32 +8,32 @@
   "author": "Ing. Alfonso Medina Duran",
   "icons": [
     {
-      "src": "res/icon/android/ldpi.png",
+      "src": "www/res/icon/android/ldpi.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     },
     {
-      "src": "res/icon/android/mdpi.png",
+      "src": "www/res/icon/android/mdpi.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     },
     {
-      "src": "res/icon/android/hdpi.png",
+      "src": "www/res/icon/android/hdpi.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     },
     {
-      "src": "res/icon/android/xhdpi.png",
+      "src": "www/res/icon/android/xhdpi.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     },
     {
-      "src": "res/icon/android/xxhdpi.png",
+      "src": "www/res/icon/android/xxhdpi.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     },
     {
-      "src": "res/icon/android/xxxhdpi.png",
+      "src": "www/res/icon/android/xxxhdpi.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     }
