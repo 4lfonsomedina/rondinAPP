@@ -8,9 +8,7 @@
         Ing. Alfonso Medina Duran
     </author>
     
-    <gap:config-file platform="android" parent="/manifest" mode="add">
-        <uses-permission android:name="android.permission.CAMERA" />
-    </gap:config-file>  
+     
 
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
